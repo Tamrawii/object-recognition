@@ -6,9 +6,9 @@ import os
 
 def recognition():
     model_path = "./Models/yolov3.pt"
-    # input_path = "./Input/images.jpg"
+    # input_path = "./input/images.jpg"
     input_path = windows.p1.text()
-    # output_path = "./Output/output_test.jpg"
+    # output_path = "./output/output_test.jpg"
     output_path = windows.p2.text()
 
     execution_path = os.getcwd()
